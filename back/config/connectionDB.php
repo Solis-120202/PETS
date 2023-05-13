@@ -14,6 +14,6 @@
     if($conn->connect_error){
         echo "Connection Failed: ".$conn->connect_error;
     } else{
-        echo "Connection Successfully";
+        //echo "Connection Successfully";
     }
 ?>
