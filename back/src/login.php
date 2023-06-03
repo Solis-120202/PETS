@@ -9,7 +9,7 @@
     $result = $conn -> query ($sql);
 
     if( $result -> num_rows > 0) {
-        header("Location:http://127.0.0.1/PETS/front/src/home.html");
+        header("Location:http://127.0.0.1/PETS/front/src/home.php");
     } else{
         //echo " ::: THE USER DOEN'T EXIST OR INVALID DATA :::" ;
         echo "<script>alert('::: THE USER DOES NOT EXIST OR INVALID DATA :::') </script>";
